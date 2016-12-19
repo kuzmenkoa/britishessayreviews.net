@@ -1,0 +1,38 @@
+body
+	font-family: "Open Sans"
+
+.wrapper
+	box-sizing: border-box
+	margin: 0 auto
+	padding: 0 13px
+	width: 100%
+	max-width: 1200px
+
+h2
+	position: relative
+	margin: 0
+	padding-bottom: 35px
+	color: #f07818
+	font-family: Cambria
+	font-size: 40px
+	font-weight: 400
+	text-align: center
+	&--white
+		color: #fff
+		&::after
+			position: absolute
+			bottom: 0
+			left: 50%
+			transform: translate(0, -50%)
+			display: block
+			width: 888px
+			height: 1px
+			background-color: #fff
+			content: ''
+
+p
+	margin: 0
+	color: #414141
+	font-size: 14px
+	font-weight: 300
+	line-height: 18px
